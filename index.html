@@ -23,27 +23,39 @@
     <link href=styles.css rel="stylesheet" type="text/css"> 
     <title>Landing Page</title>
     <body>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <header id="header">
             <div class="header-container">
-                <img id="header-img" src="" alt="company-logo">
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <div class="logo">
+                    <img id="header-img" src="/assets/images/log3.png" alt="company-logo">
+                </div>
                 <nav id="nav-bar">
                     <ul>
-                        <li id="nav-link">
-                            <a href="#features">Features</a>
+                        <li>
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
-                        <li id="nav-link">
-                            <a href="#how-it-works">How it works</a>
+                        <li>
+                            <a class="nav-link" href="#how-it-works">How it works</a>
                         </li>
-                        <li id="nav-link">
-                            <a href="pricing">Pricing</a>
+                        <li>
+                            <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                     </ul>
                 </nav>
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <span></span>
-                </label>
             </div>
         </header>
+        <section>This will contain the form and input
+            <form id="form" action="">
+                <input id="email" type="email" name="email" placeholder="Enter your email address">
+                <input id="submit" type="submit">
+            </form>
+        </section>
+        <section id="features">This will contain the features</section>
+        <section id="how-it-works">This will contain how it works
+            <!-- The following will be for the embedded video -->
+            <!-- <iframe id= "vieo" src="" frameborder="0"></iframe> -->
+        </section>
+        <section id="pricing">This will contain the pricing</section>
+        <footer>This will contain the copyright and year</footer>
     </body>
 </html>
