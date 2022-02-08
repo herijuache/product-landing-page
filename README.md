@@ -18,4 +18,7 @@
 - [x] My product landing page should utilize CSS flexbox at least once.
 
 ## Learned
-- 
+- How to create a navbar
+- Flexbox 
+- Grid
+- Embedded video links
