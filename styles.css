@@ -78,3 +78,22 @@ main {
     cursor: pointer;
     border-radius: 5px;
 }
+
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#how-it-works > p {
+    font-style: italic;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon > img{
+    max-width: 150px;
+    display: inline-block;
+}
